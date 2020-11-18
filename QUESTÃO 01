@@ -1,0 +1,15 @@
+a = input("primeiro ")
+b = input("segundo ")
+c = input("terceiro ")
+d = input("quarto ")
+if a < b:
+	if a < c:
+		a = d
+	else:
+		c = d
+else:
+	if b < a:
+		if b < c:
+			b = d
+lista = [a, b, c]
+print(lista)
