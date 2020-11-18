@@ -1,0 +1,7 @@
+x = int(input("número "))
+n = int(input("potencia "))
+v = x
+while(n != 1):
+	x = x * v
+	n = n - 1
+print(x)
